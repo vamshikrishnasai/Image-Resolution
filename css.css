@@ -1,0 +1,61 @@
+body {
+    background: url("https://t3.ftcdn.net/jpg/01/33/36/88/360_F_133368805_fk5Zro40oF3xrcdfQRNfNrNlL0HnUJiz.jpg") center center fixed;
+    background-size: 60%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-repeat: no-repeat;
+}
+
+img {
+    height: 400px;
+    object-fit: cover;
+    width: 400px;
+    opacity: 0;
+     /* Add blur effect */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh; 
+}
+
+.collection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+button {
+    border-radius: 5px;
+    height: 100px;
+    width: 160px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+#one {
+    background-color: aqua;
+}
+
+#four {
+    background-color: green;
+}
+
+#two {
+    background-color: red;
+}
+
+#three {
+    background-color: violet;
+}
+
+button:hover {
+    border: 5px solid black;
+    border-radius: 5px;
+}
