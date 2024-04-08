@@ -8,11 +8,13 @@ body {
 }
 
 img {
-    height: 400px;
+    height: 300px;
+    width: 300px;
     object-fit: cover;
-    width: 400px;
+   
     opacity: 0;
      /* Add blur effect */
+     border-radius: 50%;
 }
 
 .container {
@@ -31,14 +33,17 @@ img {
 
 button {
     border-radius: 5px;
-    height: 100px;
-    width: 160px;
+    height: 90px;
+    width: 130px;
     border: none;
     margin-top: 3rem;
     cursor: pointer;
     font-size: x-large;
+    box-shadow: 2px 2px  1px black ;
 }
-
+#zero{
+background-color: brown;
+}
 #one {
     background-color: aqua;
 }
@@ -56,6 +61,6 @@ button {
 }
 
 button:hover {
-    border: 5px solid black;
+    border: 3px solid black;
     border-radius: 5px;
 }

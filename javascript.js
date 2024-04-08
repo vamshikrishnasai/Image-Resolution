@@ -2,8 +2,13 @@ let box1=document.querySelector("#one");
 let box2=document.querySelector("#two");
 let box3=document.querySelector("#three");
 let box4=document.querySelector("#four");
-let img=document.querySelector("#image")
+let img=document.querySelector("#image");
+let box =document.querySelector("#zero");
 
+
+box.addEventListener("click",()=>{
+    img.style.opacity="0";
+});
 box1.addEventListener("click",()=>{
 
 
